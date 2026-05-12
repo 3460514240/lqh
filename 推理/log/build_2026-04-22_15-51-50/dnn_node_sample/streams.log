@@ -1,0 +1,117 @@
+[0.041s] Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample -DPLATFORM_X5=ON -DCMAKE_INSTALL_PREFIX=/home/sunrise/example/install/dnn_node_sample
+[0.486s] -- The C compiler identification is GNU 11.2.0
+[0.830s] -- The CXX compiler identification is GNU 11.2.0
+[0.883s] -- Detecting C compiler ABI info
+[1.282s] -- Detecting C compiler ABI info - done
+[1.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.350s] -- Detecting C compile features
+[1.352s] -- Detecting C compile features - done
+[1.372s] -- Detecting CXX compiler ABI info
+[1.802s] -- Detecting CXX compiler ABI info - done
+[1.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.884s] -- Detecting CXX compile features
+[1.887s] -- Detecting CXX compile features - done
+[1.905s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.152s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.763s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.997s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.028s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.086s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.559s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.574s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.067s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.199s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.431s] -- Looking for pthread.h
+[6.831s] -- Looking for pthread.h - found
+[6.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.247s] -- Found Threads: TRUE  
+[7.632s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.835s] -- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+[7.947s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+[8.026s] -- Found dnn_node: 2.5.9 (/opt/tros/humble/share/dnn_node/cmake)
+[8.040s] -- Found hobot_cv: 2.3.4 (/opt/tros/humble/share/hobot_cv/cmake)
+[8.052s] [0minvalid platform, build platform X3 default[0m
+[8.052s] [0mPREFIX_PATH is x3[0m
+[8.053s] [0mSYS_ROOT is [0m
+[8.053s] [0mhobot_cv_LIBRARIES is /opt/tros/humble/lib/libhobot_cv.so[0m
+[8.054s] [0mupdate HOBOTCV_LIB_INSTALL_PATH as /opt/tros/humble/lib[0m
+[8.054s] [0mHOBOTCV_LIB_INSTALL_PATH is /opt/tros/humble/lib[0m
+[8.478s] -- Configuring done
+[8.554s] -- Generating done
+[8.560s] [33mCMake Warning:
+[8.560s]   Manually-specified variables were not used by the project:
+[8.561s] 
+[8.561s]     PLATFORM_X5
+[8.562s] 
+[8.562s] [0m
+[8.578s] -- Build files have been written to: /home/sunrise/example/build/dnn_node_sample
+[8.643s] Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample -DPLATFORM_X5=ON -DCMAKE_INSTALL_PREFIX=/home/sunrise/example/install/dnn_node_sample
+[8.659s] Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+[8.903s] [ 66%] [32mBuilding CXX object CMakeFiles/dnn_node_sample.dir/src/parser.cpp.o[0m
+[8.904s] [ 66%] [32mBuilding CXX object CMakeFiles/dnn_node_sample.dir/src/sample.cpp.o[0m
+[26.469s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.474s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+[26.475s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+[26.475s]                  from [01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:2[m[K:
+[26.476s] [01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:[m[K In member function ‘[01m[Kvirtual int DNNNodeSample::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[26.476s] [01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:325:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[26.477s]   325 |                   [01;35m[K"input fps: %.2f, out fps: %.2f, infer time ms: %d, "[m[K
+[26.477s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.478s]   326 | [01;35m[K                  "post process time ms: %d"[m[K,
+[26.478s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.479s] ......
+[26.479s]   330 |                   [32m[Kinterval[m[K);
+[26.479s]       |                   [32m[K~~~~~~~~[m[K
+[26.480s]       |                   [32m[K|[m[K
+[26.480s]       |                   [32m[Klong int[m[K
+[26.481s] [01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:326:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.481s]   326 |                   "post process time ms: [01;36m[K%d[m[K",
+[26.481s]       |                                          [01;36m[K~^[m[K
+[26.482s]       |                                           [01;36m[K|[m[K
+[26.482s]       |                                           [01;36m[Kint[m[K
+[26.483s]       |                                          [32m[K%ld[m[K
+[41.784s] [100%] [32m[1mLinking CXX executable dnn_node_sample[0m
+[45.755s] [100%] Built target dnn_node_sample
+[45.808s] Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+[45.859s] Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample
+[45.895s] -- Install configuration: ""
+[45.896s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample
+[45.905s] -- Set runtime path of "/home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample" to ""
+[45.905s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config/
+[45.906s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//target.jpg
+[45.911s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//result.jpg
+[45.913s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_rgb.bin
+[45.980s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_nv12_v2 (1).bin
+[46.016s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//1.jpg
+[46.018s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch
+[46.018s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch/dnn_node_sample.launch.py
+[46.022s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/package_run_dependencies/dnn_node_sample
+[46.023s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/parent_prefix_path/dnn_node_sample
+[46.023s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.sh
+[46.024s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.dsv
+[46.025s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.sh
+[46.025s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.dsv
+[46.026s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.bash
+[46.026s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.sh
+[46.027s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.zsh
+[46.028s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.dsv
+[46.028s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.dsv
+[46.029s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/packages/dnn_node_sample
+[46.029s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig.cmake
+[46.030s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig-version.cmake
+[46.030s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.xml
+[46.042s] Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample

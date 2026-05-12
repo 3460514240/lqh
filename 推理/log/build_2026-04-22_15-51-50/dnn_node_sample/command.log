@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample -DPLATFORM_X5=ON -DCMAKE_INSTALL_PREFIX=/home/sunrise/example/install/dnn_node_sample
+Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample -DPLATFORM_X5=ON -DCMAKE_INSTALL_PREFIX=/home/sunrise/example/install/dnn_node_sample
+Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample
+Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample

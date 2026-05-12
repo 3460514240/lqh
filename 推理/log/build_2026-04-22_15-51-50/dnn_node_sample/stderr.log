@@ -1,0 +1,43 @@
+[0minvalid platform, build platform X3 default[0m
+[0mPREFIX_PATH is x3[0m
+[0mSYS_ROOT is [0m
+[0mhobot_cv_LIBRARIES is /opt/tros/humble/lib/libhobot_cv.so[0m
+[0mupdate HOBOTCV_LIB_INSTALL_PATH as /opt/tros/humble/lib[0m
+[0mHOBOTCV_LIB_INSTALL_PATH is /opt/tros/humble/lib[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PLATFORM_X5
+
+[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:2[m[K:
+[01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:[m[K In member function ‘[01m[Kvirtual int DNNNodeSample::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:325:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  325 |                   [01;35m[K"input fps: %.2f, out fps: %.2f, infer time ms: %d, "[m[K
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  326 | [01;35m[K                  "post process time ms: %d"[m[K,
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  330 |                   [32m[Kinterval[m[K);
+      |                   [32m[K~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Klong int[m[K
+[01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:326:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  326 |                   "post process time ms: [01;36m[K%d[m[K",
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K

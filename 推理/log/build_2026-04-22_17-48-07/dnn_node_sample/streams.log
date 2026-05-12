@@ -1,0 +1,34 @@
+[0.050s] Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target dnn_node_sample[0m
+[0.382s] [ 33%] [32mBuilding CXX object CMakeFiles/dnn_node_sample.dir/src/parser.cpp.o[0m
+[18.916s] [ 66%] [32m[1mLinking CXX executable dnn_node_sample[0m
+[22.952s] [100%] Built target dnn_node_sample
+[23.017s] Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+[23.067s] Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample
+[23.102s] -- Install configuration: ""
+[23.103s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample
+[23.113s] -- Set runtime path of "/home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample" to ""
+[23.114s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config/
+[23.114s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//target.jpg
+[23.115s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//result.jpg
+[23.116s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_rgb.bin
+[23.116s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_nv12_v2.bin
+[23.117s] -- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//1.jpg
+[23.118s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch
+[23.118s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch/dnn_node_sample.launch.py
+[23.119s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/package_run_dependencies/dnn_node_sample
+[23.120s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/parent_prefix_path/dnn_node_sample
+[23.120s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.sh
+[23.121s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.dsv
+[23.121s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.sh
+[23.122s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.dsv
+[23.122s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.bash
+[23.122s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.sh
+[23.123s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.zsh
+[23.123s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.dsv
+[23.124s] -- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.dsv
+[23.124s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/packages/dnn_node_sample
+[23.125s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig.cmake
+[23.125s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig-version.cmake
+[23.125s] -- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.xml
+[23.133s] Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample

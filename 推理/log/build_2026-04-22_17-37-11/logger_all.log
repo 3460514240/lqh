@@ -1,0 +1,233 @@
+[0.618s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dnn_node_sample', '--cmake-args', '-DPLATFORM_X5=ON']
+[0.618s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dnn_node_sample'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DPLATFORM_X5=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8e478d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e478850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e478850>>)
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.850s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/example'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'cmake'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'python'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extensions ['python_setup_py']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(config/config) by extension 'python_setup_py'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'ros'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extensions ['cmake', 'python']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop) by extension 'python_setup_py'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_benchmark_example) by extension 'ros'
+[0.980s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hobot_dnn-develop/dnn_benchmark_example' with type 'ros.ament_cmake' and name 'dnn_benchmark_example'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extensions ['colcon_pkg']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node) by extension 'ros'
+[1.021s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hobot_dnn-develop/dnn_node' with type 'ros.ament_cmake' and name 'dnn_node'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extension 'ignore_ament_install'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extensions ['colcon_pkg']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_example) by extension 'ros'
+[1.032s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hobot_dnn-develop/dnn_node_example' with type 'ros.ament_cmake' and name 'dnn_node_example'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/hobot_dnn-develop/dnn_node_sample) by extension 'ros'
+[1.041s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hobot_dnn-develop/dnn_node_sample' with type 'ros.ament_cmake' and name 'dnn_node_sample'
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.162s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dnn_node' in 'src/hobot_dnn-develop/dnn_node'
+[1.162s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dnn_benchmark_example' in 'src/hobot_dnn-develop/dnn_benchmark_example'
+[1.162s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dnn_node_example' in 'src/hobot_dnn-develop/dnn_node_example'
+[1.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sunrise/example/install
+[1.176s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 58 installed packages in /opt/tros/humble
+[1.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[1.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.498s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'dnn_node_sample' is in: /home/sunrise/example/install/dnn_node_sample, /opt/tros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding dnn_node_sample
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.505s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'cmake_args' from command line to '['-DPLATFORM_X5=ON']'
+[1.506s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'cmake_target' from command line to 'None'
+[1.506s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.506s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'cmake_clean_cache' from command line to 'False'
+[1.506s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'cmake_clean_first' from command line to 'False'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'cmake_force_configure' from command line to 'False'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'ament_cmake_args' from command line to 'None'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'catkin_cmake_args' from command line to 'None'
+[1.507s] Level 5:colcon.colcon_core.verb:set package 'dnn_node_sample' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.507s] DEBUG:colcon.colcon_core.verb:Building package 'dnn_node_sample' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/example/build/dnn_node_sample', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPLATFORM_X5=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/example/install/dnn_node_sample', 'merge_install': False, 'path': '/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample', 'symlink_install': False, 'test_result_base': None}
+[1.508s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample' with build type 'ament_cmake'
+[1.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample'
+[1.526s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.542s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- dnn_node
+They are being used from the following locations instead:
+- /opt/tros/humble
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore dnn_node
+[1.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+[24.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/example/build/dnn_node_sample -- -j8 -l8
+[24.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/example/build/dnn_node_sample': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample
+[24.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dnn_node_sample)
+[24.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/example/build/dnn_node_sample' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/example/build/dnn_node_sample
+[24.438s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample' for CMake module files
+[24.445s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample' for CMake config files
+[24.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('dnn_node_sample', 'cmake_prefix_path')
+[24.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/hook/cmake_prefix_path.ps1'
+[24.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/hook/cmake_prefix_path.dsv'
+[24.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/hook/cmake_prefix_path.sh'
+[24.466s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/lib'
+[24.467s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/bin'
+[24.467s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/lib/pkgconfig/dnn_node_sample.pc'
+[24.469s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/lib/python3.10/site-packages'
+[24.472s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/bin'
+[24.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.ps1'
+[24.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.dsv'
+[24.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.sh'
+[24.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.bash'
+[24.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.zsh'
+[24.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/example/install/dnn_node_sample/share/colcon-core/packages/dnn_node_sample)
+[24.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dnn_node_sample)
+[24.503s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample' for CMake module files
+[24.506s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample' for CMake config files
+[24.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('dnn_node_sample', 'cmake_prefix_path')
+[24.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/hook/cmake_prefix_path.ps1'
+[24.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/hook/cmake_prefix_path.dsv'
+[24.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/hook/cmake_prefix_path.sh'
+[24.517s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/lib'
+[24.517s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/bin'
+[24.518s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/lib/pkgconfig/dnn_node_sample.pc'
+[24.519s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/lib/python3.10/site-packages'
+[24.522s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/example/install/dnn_node_sample/bin'
+[24.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.ps1'
+[24.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.dsv'
+[24.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.sh'
+[24.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.bash'
+[24.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.zsh'
+[24.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/example/install/dnn_node_sample/share/colcon-core/packages/dnn_node_sample)
+[24.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.542s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[24.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.570s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.591s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/example/install/local_setup.ps1'
+[24.599s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/example/install/_local_setup_util_ps1.py'
+[24.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/example/install/setup.ps1'
+[24.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/example/install/local_setup.sh'
+[24.618s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/example/install/_local_setup_util_sh.py'
+[24.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/example/install/setup.sh'
+[24.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/example/install/local_setup.bash'
+[24.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/example/install/setup.bash'
+[24.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/example/install/local_setup.zsh'
+[24.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/example/install/setup.zsh'

@@ -1,0 +1,4 @@
+source;share/dnn_node_sample/local_setup.bash
+source;share/dnn_node_sample/local_setup.dsv
+source;share/dnn_node_sample/local_setup.sh
+source;share/dnn_node_sample/local_setup.zsh

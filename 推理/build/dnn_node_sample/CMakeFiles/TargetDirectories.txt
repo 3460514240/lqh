@@ -1,0 +1,10 @@
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/uninstall.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/dnn_node_sample_uninstall.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/dnn_node_sample.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/test.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/edit_cache.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/rebuild_cache.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/list_install_components.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/install.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/install/local.dir
+/home/sunrise/example/build/dnn_node_sample/CMakeFiles/install/strip.dir

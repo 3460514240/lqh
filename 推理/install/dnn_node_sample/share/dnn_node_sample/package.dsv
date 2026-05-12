@@ -1,0 +1,8 @@
+source;share/dnn_node_sample/hook/cmake_prefix_path.ps1
+source;share/dnn_node_sample/hook/cmake_prefix_path.dsv
+source;share/dnn_node_sample/hook/cmake_prefix_path.sh
+source;share/dnn_node_sample/local_setup.bash
+source;share/dnn_node_sample/local_setup.dsv
+source;share/dnn_node_sample/local_setup.ps1
+source;share/dnn_node_sample/local_setup.sh
+source;share/dnn_node_sample/local_setup.zsh

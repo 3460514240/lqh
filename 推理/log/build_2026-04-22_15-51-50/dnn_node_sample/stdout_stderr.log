@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+-- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+-- Found dnn_node: 2.5.9 (/opt/tros/humble/share/dnn_node/cmake)
+-- Found hobot_cv: 2.3.4 (/opt/tros/humble/share/hobot_cv/cmake)
+[0minvalid platform, build platform X3 default[0m
+[0mPREFIX_PATH is x3[0m
+[0mSYS_ROOT is [0m
+[0mhobot_cv_LIBRARIES is /opt/tros/humble/lib/libhobot_cv.so[0m
+[0mupdate HOBOTCV_LIB_INSTALL_PATH as /opt/tros/humble/lib[0m
+[0mHOBOTCV_LIB_INSTALL_PATH is /opt/tros/humble/lib[0m
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PLATFORM_X5
+
+[0m
+-- Build files have been written to: /home/sunrise/example/build/dnn_node_sample
+[ 66%] [32mBuilding CXX object CMakeFiles/dnn_node_sample.dir/src/parser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/dnn_node_sample.dir/src/sample.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:2[m[K:
+[01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:[m[K In member function ‘[01m[Kvirtual int DNNNodeSample::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:325:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  325 |                   [01;35m[K"input fps: %.2f, out fps: %.2f, infer time ms: %d, "[m[K
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  326 | [01;35m[K                  "post process time ms: %d"[m[K,
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  330 |                   [32m[Kinterval[m[K);
+      |                   [32m[K~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Klong int[m[K
+[01m[K/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample/src/sample.cpp:326:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  326 |                   "post process time ms: [01;36m[K%d[m[K",
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable dnn_node_sample[0m
+[100%] Built target dnn_node_sample
+-- Install configuration: ""
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample
+-- Set runtime path of "/home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample" to ""
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config/
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//target.jpg
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//result.jpg
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_rgb.bin
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_nv12_v2 (1).bin
+-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//1.jpg
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch/dnn_node_sample.launch.py
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/package_run_dependencies/dnn_node_sample
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/parent_prefix_path/dnn_node_sample
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.sh
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.dsv
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.sh
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.dsv
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.bash
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.sh
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.zsh
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.dsv
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.dsv
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/packages/dnn_node_sample
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig.cmake
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig-version.cmake
+-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.xml

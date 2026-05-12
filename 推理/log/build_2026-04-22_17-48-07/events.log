@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.001064] (-) JobUnselected: {'identifier': 'dnn_benchmark_example'}
+[0.002047] (-) JobUnselected: {'identifier': 'dnn_node'}
+[0.002704] (-) JobUnselected: {'identifier': 'dnn_node_example'}
+[0.003643] (dnn_node_sample) JobQueued: {'identifier': 'dnn_node_sample', 'dependencies': OrderedDict([('dnn_node', '/home/sunrise/example/install/dnn_node')])}
+[0.003912] (dnn_node_sample) JobStarted: {'identifier': 'dnn_node_sample'}
+[0.042533] (dnn_node_sample) JobProgress: {'identifier': 'dnn_node_sample', 'progress': 'cmake'}
+[0.045877] (dnn_node_sample) JobProgress: {'identifier': 'dnn_node_sample', 'progress': 'build'}
+[0.049949] (dnn_node_sample) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/example/build/dnn_node_sample', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/example/build/dnn_node_sample', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '10.129.94.58 10711 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/example/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/example/install/dnn_node_sample:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/example/build/dnn_node_sample'), ('SSH_CONNECTION', '10.129.94.58 10711 10.129.94.99 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/example/install/dnn_node_sample:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098944] (-) TimerEvent: {}
+[0.199851] (-) TimerEvent: {}
+[0.269279] (dnn_node_sample) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dnn_node_sample\x1b[0m\n'}
+[0.299996] (-) TimerEvent: {}
+[0.385585] (dnn_node_sample) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dnn_node_sample.dir/src/parser.cpp.o\x1b[0m\n'}
+[0.400177] (-) TimerEvent: {}
+[0.501052] (-) TimerEvent: {}
+[0.601857] (-) TimerEvent: {}
+[0.702678] (-) TimerEvent: {}
+[0.803492] (-) TimerEvent: {}
+[0.904300] (-) TimerEvent: {}
+[1.005085] (-) TimerEvent: {}
+[1.105887] (-) TimerEvent: {}
+[1.206690] (-) TimerEvent: {}
+[1.307660] (-) TimerEvent: {}
+[1.408475] (-) TimerEvent: {}
+[1.509278] (-) TimerEvent: {}
+[1.610091] (-) TimerEvent: {}
+[1.710986] (-) TimerEvent: {}
+[1.811850] (-) TimerEvent: {}
+[1.912687] (-) TimerEvent: {}
+[2.013526] (-) TimerEvent: {}
+[2.114346] (-) TimerEvent: {}
+[2.215159] (-) TimerEvent: {}
+[2.315979] (-) TimerEvent: {}
+[2.416762] (-) TimerEvent: {}
+[2.517586] (-) TimerEvent: {}
+[2.618437] (-) TimerEvent: {}
+[2.719293] (-) TimerEvent: {}
+[2.820099] (-) TimerEvent: {}
+[2.920918] (-) TimerEvent: {}
+[3.021710] (-) TimerEvent: {}
+[3.122488] (-) TimerEvent: {}
+[3.223259] (-) TimerEvent: {}
+[3.324046] (-) TimerEvent: {}
+[3.424829] (-) TimerEvent: {}
+[3.525635] (-) TimerEvent: {}
+[3.626429] (-) TimerEvent: {}
+[3.727263] (-) TimerEvent: {}
+[3.828072] (-) TimerEvent: {}
+[3.928881] (-) TimerEvent: {}
+[4.029668] (-) TimerEvent: {}
+[4.130474] (-) TimerEvent: {}
+[4.231244] (-) TimerEvent: {}
+[4.332051] (-) TimerEvent: {}
+[4.432850] (-) TimerEvent: {}
+[4.533634] (-) TimerEvent: {}
+[4.634453] (-) TimerEvent: {}
+[4.735310] (-) TimerEvent: {}
+[4.836169] (-) TimerEvent: {}
+[4.937037] (-) TimerEvent: {}
+[5.037880] (-) TimerEvent: {}
+[5.138700] (-) TimerEvent: {}
+[5.239490] (-) TimerEvent: {}
+[5.340309] (-) TimerEvent: {}
+[5.441092] (-) TimerEvent: {}
+[5.541906] (-) TimerEvent: {}
+[5.642734] (-) TimerEvent: {}
+[5.743600] (-) TimerEvent: {}
+[5.844408] (-) TimerEvent: {}
+[5.945236] (-) TimerEvent: {}
+[6.046178] (-) TimerEvent: {}
+[6.146990] (-) TimerEvent: {}
+[6.247839] (-) TimerEvent: {}
+[6.348699] (-) TimerEvent: {}
+[6.449526] (-) TimerEvent: {}
+[6.550327] (-) TimerEvent: {}
+[6.651157] (-) TimerEvent: {}
+[6.752004] (-) TimerEvent: {}
+[6.852877] (-) TimerEvent: {}
+[6.953687] (-) TimerEvent: {}
+[7.054504] (-) TimerEvent: {}
+[7.155302] (-) TimerEvent: {}
+[7.256137] (-) TimerEvent: {}
+[7.356915] (-) TimerEvent: {}
+[7.457686] (-) TimerEvent: {}
+[7.558522] (-) TimerEvent: {}
+[7.659362] (-) TimerEvent: {}
+[7.760208] (-) TimerEvent: {}
+[7.861014] (-) TimerEvent: {}
+[7.961809] (-) TimerEvent: {}
+[8.062636] (-) TimerEvent: {}
+[8.163443] (-) TimerEvent: {}
+[8.264228] (-) TimerEvent: {}
+[8.365014] (-) TimerEvent: {}
+[8.465851] (-) TimerEvent: {}
+[8.566691] (-) TimerEvent: {}
+[8.667539] (-) TimerEvent: {}
+[8.768383] (-) TimerEvent: {}
+[8.869190] (-) TimerEvent: {}
+[8.970034] (-) TimerEvent: {}
+[9.070886] (-) TimerEvent: {}
+[9.171697] (-) TimerEvent: {}
+[9.272483] (-) TimerEvent: {}
+[9.373286] (-) TimerEvent: {}
+[9.474104] (-) TimerEvent: {}
+[9.574916] (-) TimerEvent: {}
+[9.675799] (-) TimerEvent: {}
+[9.776611] (-) TimerEvent: {}
+[9.877384] (-) TimerEvent: {}
+[9.978224] (-) TimerEvent: {}
+[10.079062] (-) TimerEvent: {}
+[10.179881] (-) TimerEvent: {}
+[10.280670] (-) TimerEvent: {}
+[10.381452] (-) TimerEvent: {}
+[10.482225] (-) TimerEvent: {}
+[10.583037] (-) TimerEvent: {}
+[10.683887] (-) TimerEvent: {}
+[10.784704] (-) TimerEvent: {}
+[10.885472] (-) TimerEvent: {}
+[10.986346] (-) TimerEvent: {}
+[11.087127] (-) TimerEvent: {}
+[11.187945] (-) TimerEvent: {}
+[11.288810] (-) TimerEvent: {}
+[11.389670] (-) TimerEvent: {}
+[11.490497] (-) TimerEvent: {}
+[11.591306] (-) TimerEvent: {}
+[11.692131] (-) TimerEvent: {}
+[11.792933] (-) TimerEvent: {}
+[11.893802] (-) TimerEvent: {}
+[11.994607] (-) TimerEvent: {}
+[12.095420] (-) TimerEvent: {}
+[12.196238] (-) TimerEvent: {}
+[12.297000] (-) TimerEvent: {}
+[12.397811] (-) TimerEvent: {}
+[12.498579] (-) TimerEvent: {}
+[12.599403] (-) TimerEvent: {}
+[12.700252] (-) TimerEvent: {}
+[12.801061] (-) TimerEvent: {}
+[12.901849] (-) TimerEvent: {}
+[13.002672] (-) TimerEvent: {}
+[13.103512] (-) TimerEvent: {}
+[13.204335] (-) TimerEvent: {}
+[13.305133] (-) TimerEvent: {}
+[13.405959] (-) TimerEvent: {}
+[13.506769] (-) TimerEvent: {}
+[13.607616] (-) TimerEvent: {}
+[13.708454] (-) TimerEvent: {}
+[13.809275] (-) TimerEvent: {}
+[13.910061] (-) TimerEvent: {}
+[14.010847] (-) TimerEvent: {}
+[14.111651] (-) TimerEvent: {}
+[14.212449] (-) TimerEvent: {}
+[14.313233] (-) TimerEvent: {}
+[14.414027] (-) TimerEvent: {}
+[14.514846] (-) TimerEvent: {}
+[14.615737] (-) TimerEvent: {}
+[14.716607] (-) TimerEvent: {}
+[14.817435] (-) TimerEvent: {}
+[14.918226] (-) TimerEvent: {}
+[15.019003] (-) TimerEvent: {}
+[15.119783] (-) TimerEvent: {}
+[15.220568] (-) TimerEvent: {}
+[15.321352] (-) TimerEvent: {}
+[15.422134] (-) TimerEvent: {}
+[15.522950] (-) TimerEvent: {}
+[15.623781] (-) TimerEvent: {}
+[15.724620] (-) TimerEvent: {}
+[15.825436] (-) TimerEvent: {}
+[15.926270] (-) TimerEvent: {}
+[16.027044] (-) TimerEvent: {}
+[16.127826] (-) TimerEvent: {}
+[16.228630] (-) TimerEvent: {}
+[16.329486] (-) TimerEvent: {}
+[16.430323] (-) TimerEvent: {}
+[16.531123] (-) TimerEvent: {}
+[16.631939] (-) TimerEvent: {}
+[16.732780] (-) TimerEvent: {}
+[16.833589] (-) TimerEvent: {}
+[16.934421] (-) TimerEvent: {}
+[17.035176] (-) TimerEvent: {}
+[17.136003] (-) TimerEvent: {}
+[17.236780] (-) TimerEvent: {}
+[17.337576] (-) TimerEvent: {}
+[17.438385] (-) TimerEvent: {}
+[17.539207] (-) TimerEvent: {}
+[17.640067] (-) TimerEvent: {}
+[17.740921] (-) TimerEvent: {}
+[17.841731] (-) TimerEvent: {}
+[17.942514] (-) TimerEvent: {}
+[18.043281] (-) TimerEvent: {}
+[18.144046] (-) TimerEvent: {}
+[18.244830] (-) TimerEvent: {}
+[18.345663] (-) TimerEvent: {}
+[18.446444] (-) TimerEvent: {}
+[18.547195] (-) TimerEvent: {}
+[18.647989] (-) TimerEvent: {}
+[18.748817] (-) TimerEvent: {}
+[18.849618] (-) TimerEvent: {}
+[18.919451] (dnn_node_sample) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable dnn_node_sample\x1b[0m\n'}
+[18.949789] (-) TimerEvent: {}
+[19.050624] (-) TimerEvent: {}
+[19.151488] (-) TimerEvent: {}
+[19.252422] (-) TimerEvent: {}
+[19.353295] (-) TimerEvent: {}
+[19.454171] (-) TimerEvent: {}
+[19.555036] (-) TimerEvent: {}
+[19.655890] (-) TimerEvent: {}
+[19.756744] (-) TimerEvent: {}
+[19.857591] (-) TimerEvent: {}
+[19.958417] (-) TimerEvent: {}
+[20.059308] (-) TimerEvent: {}
+[20.160129] (-) TimerEvent: {}
+[20.260944] (-) TimerEvent: {}
+[20.361705] (-) TimerEvent: {}
+[20.462497] (-) TimerEvent: {}
+[20.563485] (-) TimerEvent: {}
+[20.664447] (-) TimerEvent: {}
+[20.765313] (-) TimerEvent: {}
+[20.866200] (-) TimerEvent: {}
+[20.966951] (-) TimerEvent: {}
+[21.067763] (-) TimerEvent: {}
+[21.168601] (-) TimerEvent: {}
+[21.269504] (-) TimerEvent: {}
+[21.370403] (-) TimerEvent: {}
+[21.471277] (-) TimerEvent: {}
+[21.572070] (-) TimerEvent: {}
+[21.672881] (-) TimerEvent: {}
+[21.773682] (-) TimerEvent: {}
+[21.874475] (-) TimerEvent: {}
+[21.975338] (-) TimerEvent: {}
+[22.076164] (-) TimerEvent: {}
+[22.176942] (-) TimerEvent: {}
+[22.277703] (-) TimerEvent: {}
+[22.378481] (-) TimerEvent: {}
+[22.479259] (-) TimerEvent: {}
+[22.580053] (-) TimerEvent: {}
+[22.680831] (-) TimerEvent: {}
+[22.781564] (-) TimerEvent: {}
+[22.882339] (-) TimerEvent: {}
+[22.955054] (dnn_node_sample) StdoutLine: {'line': b'[100%] Built target dnn_node_sample\n'}
+[22.982520] (-) TimerEvent: {}
+[23.019941] (dnn_node_sample) CommandEnded: {'returncode': 0}
+[23.022339] (dnn_node_sample) JobProgress: {'identifier': 'dnn_node_sample', 'progress': 'install'}
+[23.066919] (dnn_node_sample) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/example/build/dnn_node_sample'], 'cwd': '/home/sunrise/example/build/dnn_node_sample', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '10.129.94.58 10711 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/example/src/hobot_dnn-develop/dnn_node_sample'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/example/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/example/install/dnn_node_sample:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/example/build/dnn_node_sample'), ('SSH_CONNECTION', '10.129.94.58 10711 10.129.94.99 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/example/install/dnn_node_sample:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[23.082655] (-) TimerEvent: {}
+[23.105436] (dnn_node_sample) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.106349] (dnn_node_sample) StdoutLine: {'line': b'-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample\n'}
+[23.116643] (dnn_node_sample) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/dnn_node_sample" to ""\n'}
+[23.117467] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config/\n'}
+[23.117947] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//target.jpg\n'}
+[23.118381] (dnn_node_sample) StdoutLine: {'line': b'-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//result.jpg\n'}
+[23.119294] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_rgb.bin\n'}
+[23.119829] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//yolov8_x5_640x640_nv12_v2.bin\n'}
+[23.120261] (dnn_node_sample) StdoutLine: {'line': b'-- Installing: /home/sunrise/example/install/dnn_node_sample/lib/dnn_node_sample/config//1.jpg\n'}
+[23.121339] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch\n'}
+[23.121887] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/launch/dnn_node_sample.launch.py\n'}
+[23.122494] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/package_run_dependencies/dnn_node_sample\n'}
+[23.123140] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/parent_prefix_path/dnn_node_sample\n'}
+[23.123808] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.sh\n'}
+[23.124243] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/ament_prefix_path.dsv\n'}
+[23.124847] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.sh\n'}
+[23.125344] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/environment/path.dsv\n'}
+[23.125817] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.bash\n'}
+[23.126246] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.sh\n'}
+[23.126658] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.zsh\n'}
+[23.127070] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/local_setup.dsv\n'}
+[23.127481] (dnn_node_sample) StdoutLine: {'line': b'-- Installing: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.dsv\n'}
+[23.127891] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/ament_index/resource_index/packages/dnn_node_sample\n'}
+[23.128302] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig.cmake\n'}
+[23.128714] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/cmake/dnn_node_sampleConfig-version.cmake\n'}
+[23.129125] (dnn_node_sample) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/example/install/dnn_node_sample/share/dnn_node_sample/package.xml\n'}
+[23.134013] (dnn_node_sample) CommandEnded: {'returncode': 0}
+[23.184554] (-) TimerEvent: {}
+[23.242813] (dnn_node_sample) JobEnded: {'identifier': 'dnn_node_sample', 'rc': 0}
+[23.245697] (-) EventReactorShutdown: {}

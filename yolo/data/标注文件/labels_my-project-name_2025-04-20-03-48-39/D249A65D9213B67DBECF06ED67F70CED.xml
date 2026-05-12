@@ -1,0 +1,25 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>D249A65D9213B67DBECF06ED67F70CED.jpg</filename>
+	<path>/my-project-name/D249A65D9213B67DBECF06ED67F70CED.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Grain</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>74</ymin>
+			<xmax>952</xmax>
+			<ymax>683</ymax>
+		</bndbox>
+	</object>
+</annotation>
